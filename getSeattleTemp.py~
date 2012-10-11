@@ -13,7 +13,7 @@ def main():
         attributeString = ''
         while i < attributeNodeMap.length:
             attribute = attributeNodeMap.item(i)
-            attributeString = attributeString + attribute.name + '=' + attribute.value + ', '
+            attributeString = attributeString + attribute.value + ', '
             i += 1
         print attributeString
     
